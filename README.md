@@ -13,23 +13,23 @@ npm install tckn-vkn-validator
 ```
 import {validateTCKN} from 'tckn-vkn-validator';
 
-validateTCKN('12345678901') //false;
+const tckn = '12345678901';
+validateTCKN(tckn) //false;
 
                  OR
 
 import {validateVKN} from 'tckn-vkn-validator';
 
-validateVKN('12345678901')//false;
+const vkn = '12345678901';
+validateVKN(vkn)//false;
 
 ```
+
+- Parameters for both functions could be string or number.
 
 validateTCKN and validateVKN will return true if the given TCKN or VKN is valid, otherwise false.
 
 You can also use those functions through yup library.
-
-## License
-
-    MIT
 
 ## Contributing
 
