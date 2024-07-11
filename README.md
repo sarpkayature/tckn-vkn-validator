@@ -1,6 +1,6 @@
 # TCKN - VKN VALIDATOR
 
-This is a simple validator for Turkish Companies' Identification Numbers (TCKN) and VKN (Vergi Kimlik Numarası). This library will only work for Turkish companies and Turkish persons. The validator is based on the official documents of the Social Security Administration & Tax Administration.
+This is a simple validator for Turkish Citizens Identification Numbers (TCKN) and VKN (Vergi Kimlik Numarası). This library will only work for Turkish companies and Turkish citizens. The validator is based on the official documents of the Social Security Administration & Tax Administration.
 
 ## Installation
 
